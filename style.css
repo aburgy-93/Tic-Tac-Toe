@@ -1,0 +1,11 @@
+.gameBoardContainer {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.cell {
+  height: 25px;
+  width: 25px;
+  border: 1px solid black;
+}
