@@ -119,7 +119,7 @@ const gamePlay = (() => {
       playerOne = player(playerOneName.value, "X");
       playerTwo = player(playerTwoName.value, "O");
       currPlayer = playerOne;
-      game;
+      gameRound();
     }
   };
 

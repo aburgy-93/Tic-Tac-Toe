@@ -9,6 +9,26 @@
   </head>
   <body>
     <header class="header">Tic-Tac-Toe</header>
+
+    <div class="container">
+      <form class="player-info mb-4">
+        <div class="form-group">
+          <label for="player1">Player 1 (X)</label>
+          <input type="text" class="form-control" id="player1" placeholder="Name of player 1">
+        </div>
+  
+        <div class="form-group">
+          <label for="player2">Player 2 (O)</label>
+          <input type="text" class="form-control" id="player2" placeholder="Name of player 2">
+        </div>
+  
+        <button type="submit" class="btn btn-primary">Play</button>
+      </form>
+      <div class="col-4 offset-4 place hidden">
+      <div class="alert alert-primary game-status text-center">
+        <h4>Board:</h4>
+      </div>
+
     <div class="gameBoardContainer">
       <div id="board">
         <div class="cell text-center display-4"></div>
@@ -24,5 +44,5 @@
     </div>
     <button class="restart">Restart</button>
   </body>
-  <script src="script.js"></script>
+  <script id="reset" src="script.js"></script>
 </html>
